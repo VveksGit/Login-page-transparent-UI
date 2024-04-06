@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', serif;
+}
+
+.container{
+  max-width: 380px;
+  padding: 0 20px;
+  margin: 140px auto;
+}
+body{
+  background: url('BackgroundForProject-2.jpg') no-repeat;
+  background-size: cover;
+}
+.wrapper{
+  width: 100%;
+  background: transparent;
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.wrapper form .user-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.wrapper .title{
+ line-height: 90px;
+ font-size: 45px;
+ font-weight: 600;
+ color: white;
+ text-align: center;
+}
+
+.wrapper form{
+ padding: 30px 25px 25px 25px;
+}
+
+.wrapper form .F-pass{
+  margin: 8px 0px 10px 10px;
+}
+.wrapper form .F-pass a{
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+}
+.wrapper form .F-pass a:hover{
+  text-decoration: underline;
+}
+.wrapper form .Remember{
+  color:white;
+  margin-left: 4px;
+  margin-right: 27px;
+  font-size: 13px;
+}
+.wrapper form .Signup-link{
+  text-align: center;
+  color:white;
+  font-size: 13px;
+}
+.wrapper form .Signup-link a{
+  text-decoration: none;
+  color: white;
+}
+.wrapper form .Signup-link a:hover{
+  text-decoration: underline;
+}
+.wrapper form .row{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.wrapper form .row input{
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  font-size: 16px;
+  color: white;
+  border: 1px solid lightgrey;
+  outline: none;
+  transition: all 0.3s ease;
+  padding-left: 10px;
+  background: transparent;
+  backdrop-filter: blur(20px);
+
+}
+
+.row input::placeholder{
+  color: #fff;
+}
+
+form .user-input input{
+  height: 15px;
+}
+.wrapper form .row i{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: -30px;
+  color: white;
+}
+.wrapper form .button input{
+  background: white;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+}
+.wrapper form .button input:hover{
+  cursor: pointer;
+  background: rgb(240, 239, 239);
+}
+
+
